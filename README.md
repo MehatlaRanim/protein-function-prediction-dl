@@ -1,2 +1,5 @@
 # protein-function-prediction-dl
 This repository focuses on predicting protein functions using deep learning models such as RNN, LSTM, GRU, and Transformers, with the CAFA5 dataset. It includes data preprocessing, model training, evaluation, and analysis of results, focusing on protein multifunctionality and class imbalance.
+
+
+This project focuses on predicting protein functions using deep learning techniques applied to the CAFA5 dataset. Key aspects include advanced data preprocessing, sequence embedding, and handling of imbalanced datasets. The study evaluates various deep learning architectures, including Deep Neural Networks (DNN) and Recurrent Neural Networks (RNN). Results show that DNNs achieved the highest performance on imbalanced data with an average Fmax of 0.4577, while RNNs performed best on balanced data with an average Fmax of 0.6970. This work underscores the importance of addressing data imbalance in multi-label classification and highlights the varying effectiveness of different models depending on dataset characteristics.
